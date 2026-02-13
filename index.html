@@ -9,8 +9,9 @@
         body {
             margin: 0;
             font-family: Arial, Helvetica, sans-serif;
-            background: #f5f7fa;
+            background: #f4f6f9;
             color: #222;
+            line-height: 1.6;
         }
 
         header {
@@ -21,34 +22,41 @@
         }
 
         .profile-img {
-            width: 170px;
-            height: 170px;
+            width: 180px;
+            height: 180px;
             border-radius: 50%;
             object-fit: cover;
             margin-bottom: 20px;
-            border: 3px solid #e0e0e0;
+            border: 3px solid #ddd;
         }
 
         h1 {
             margin: 0;
-            font-size: 34px;
+            font-size: 36px;
         }
 
         .subtitle {
             color: #555;
-            margin-top: 8px;
-            font-size: 16px;
+            margin-top: 10px;
+            font-size: 17px;
+        }
+
+        .affiliation {
+            margin-top: 12px;
+            font-weight: bold;
+            color: #444;
         }
 
         section {
-            max-width: 900px;
+            max-width: 950px;
             margin: auto;
             padding: 40px 20px;
         }
 
         h2 {
-            border-bottom: 2px solid #eee;
+            border-bottom: 2px solid #e0e0e0;
             padding-bottom: 10px;
+            margin-bottom: 20px;
         }
 
         .card {
@@ -60,8 +68,16 @@
         }
 
         a {
-            color: #0066cc;
+            color: #0056b3;
             text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-info p {
+            margin: 8px 0;
         }
 
         footer {
@@ -72,16 +88,6 @@
             color: #666;
             font-size: 14px;
         }
-
-        .contact-info p {
-            margin: 6px 0;
-        }
-
-        .affiliation {
-            margin-top: 10px;
-            font-weight: bold;
-            color: #444;
-        }
     </style>
 </head>
 
@@ -89,12 +95,12 @@
 
 <header>
 
-    <!-- Make sure this matches your uploaded image name -->
+    <!-- Make sure profile.jpg exists in the same folder -->
     <img src="profile.jpg" alt="Sayan Majumder Photo" class="profile-img">
 
     <h1>Sayan Majumder</h1>
     <p class="subtitle">
-        Mechanical Engineer | Python Developer | Simulation Researcher
+        Mechanical Engineer | Simulation Researcher | Electrochemical Modeling Specialist
     </p>
 
     <p class="affiliation">
@@ -108,11 +114,12 @@
 <section>
     <h2>About Me</h2>
     <p>
-        I am currently working as an Institute Post Doctoral Fellow at the
+        I am currently serving as an Institute Post Doctoral Fellow at the
         School of Energy Science and Engineering, IIT Kharagpur.
-        My research interests include simulation, battery modeling,
-        electrochemical systems, and computational engineering.
-        I enjoy building robust numerical models and solving complex engineering problems.
+        My research focuses on electrochemical modeling, battery thermal management,
+        multiphysics simulation, and computational engineering.
+        I am passionate about developing high-fidelity numerical models
+        and solving complex energy system challenges.
     </p>
 </section>
 
@@ -120,15 +127,21 @@
     <h2>Projects</h2>
 
     <div class="card">
-        <h3>Battery Modeling</h3>
-        <p>Simulation and electrochemical modeling using Python and PyBaMM.</p>
-        <a href="https://github.com/sayanmech" target="_blank">View Project</a>
+        <h3>Electrochemical Battery Modeling</h3>
+        <p>
+            Physics-based simulation and numerical modeling of lithium-ion batteries
+            using Python and advanced electrochemical frameworks.
+        </p>
+        <a href="https://github.com/sayanmech" target="_blank">View on GitHub</a>
     </div>
 
     <div class="card">
-        <h3>Engineering Data Analysis Tools</h3>
-        <p>Custom Python scripts and numerical tools for engineering research.</p>
-        <a href="https://github.com/sayanmech" target="_blank">View Project</a>
+        <h3>Thermal Management & Battery Cooling</h3>
+        <p>
+            CFD-based simulation studies on battery cooling systems using ANSYS Fluent
+            and multiphysics tools.
+        </p>
+        <a href="https://github.com/sayanmech" target="_blank">View on GitHub</a>
     </div>
 
 </section>
@@ -136,7 +149,9 @@
 <section>
     <h2>Skills</h2>
     <p>
-        Python • MATLAB • Electrochemical Modeling • Simulation • Mechanical Design • Data Analysis
+        Python • MATLAB • Electrochemical Modeling • Simulation • Mechanical Design • 
+        Data Analysis • Thermal Management • Battery Cooling • ANSYS Fluent • 
+        LaTeX • COMSOL Multiphysics
     </p>
 </section>
 
@@ -144,10 +159,39 @@
     <h2>Contact</h2>
 
     <div class="contact-info">
-        <p><strong>Personal Email:</strong> sayaniitmadras@gmail.com</p>
-        <p><strong>Work Email:</strong> sayanmajumder@iitkgp.ac.in</p>
+
+        <p><strong>Personal Email:</strong>
+            <a href="mailto:sayaniitmadras@gmail.com">
+                sayaniitmadras@gmail.com
+            </a>
+        </p>
+
+        <p><strong>Work Email:</strong>
+            <a href="mailto:sayanmajumder@iitkgp.ac.in">
+                sayanmajumder@iitkgp.ac.in
+            </a>
+        </p>
+
         <p><strong>Phone:</strong> +91-7003100274</p>
-        <p><strong>GitHub:</strong> <a href="https://github.com/sayanmech" target="_blank">github.com/sayanmech</a></p>
+
+        <p><strong>GitHub:</strong>
+            <a href="https://github.com/sayanmech" target="_blank">
+                github.com/sayanmech
+            </a>
+        </p>
+
+        <p><strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/sayan-majumder-phd-a761b7138/" target="_blank">
+                linkedin.com/in/sayan-majumder-phd-a761b7138
+            </a>
+        </p>
+
+        <p><strong>Google Scholar:</strong>
+            <a href="https://scholar.google.com/citations?user=EoIZKLAAAAAJ&hl=en" target="_blank">
+                scholar.google.com/citations?user=EoIZKLAAAAAJ
+            </a>
+        </p>
+
     </div>
 
 </section>
