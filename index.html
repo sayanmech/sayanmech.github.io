@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sayan | Portfolio</title>
+    <title>Sayan Majumder | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -20,14 +20,24 @@
             border-bottom: 1px solid #ddd;
         }
 
+        .profile-img {
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 3px solid #e0e0e0;
+        }
+
         h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 34px;
         }
 
         .subtitle {
             color: #555;
-            margin-top: 10px;
+            margin-top: 8px;
+            font-size: 16px;
         }
 
         section {
@@ -62,22 +72,47 @@
             color: #666;
             font-size: 14px;
         }
+
+        .contact-info p {
+            margin: 6px 0;
+        }
+
+        .affiliation {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #444;
+        }
     </style>
 </head>
 
 <body>
 
 <header>
-    <h1>Dr.Sayan Majumder</h1>
-    <p class="subtitle">Mechanical Engineer | Institute Post Doctoral Fellow | Simulation Enthusiast</p>
+
+    <!-- Make sure this matches your uploaded image name -->
+    <img src="profile.jpg" alt="Sayan Majumder Photo" class="profile-img">
+
+    <h1>Sayan Majumder</h1>
+    <p class="subtitle">
+        Mechanical Engineer | Python Developer | Simulation Researcher
+    </p>
+
+    <p class="affiliation">
+        Institute Post Doctoral Fellow <br>
+        School of Energy Science and Engineering <br>
+        Indian Institute of Technology Kharagpur
+    </p>
+
 </header>
 
 <section>
     <h2>About Me</h2>
     <p>
-        I am a mechanical engineer with a strong interest in simulation,
-        modeling, and problem solving. I enjoy building practical solutions
-        using Python and engineering principles.
+        I am currently working as an Institute Post Doctoral Fellow at the
+        School of Energy Science and Engineering, IIT Kharagpur.
+        My research interests include simulation, battery modeling,
+        electrochemical systems, and computational engineering.
+        I enjoy building robust numerical models and solving complex engineering problems.
     </p>
 </section>
 
@@ -86,13 +121,13 @@
 
     <div class="card">
         <h3>Battery Modeling</h3>
-        <p>Simulation and analysis using Python and PyBaMM.</p>
+        <p>Simulation and electrochemical modeling using Python and PyBaMM.</p>
         <a href="https://github.com/sayanmech" target="_blank">View Project</a>
     </div>
 
     <div class="card">
-        <h3>Engineering Tools</h3>
-        <p>Small utilities and data analysis scripts for engineering applications.</p>
+        <h3>Engineering Data Analysis Tools</h3>
+        <p>Custom Python scripts and numerical tools for engineering research.</p>
         <a href="https://github.com/sayanmech" target="_blank">View Project</a>
     </div>
 
@@ -101,21 +136,25 @@
 <section>
     <h2>Skills</h2>
     <p>
-        Python • MATLAB • Simulation • Mechanical Design • Data Analysis
+        Python • MATLAB • Electrochemical Modeling • Simulation • Mechanical Design • Data Analysis
     </p>
 </section>
 
 <section>
     <h2>Contact</h2>
-    <p>
-        GitHub: <a href="https://github.com/sayanmech" target="_blank">github.com/sayanmech</a>
-    </p>
+
+    <div class="contact-info">
+        <p><strong>Personal Email:</strong> sayaniitmadras@gmail.com</p>
+        <p><strong>Work Email:</strong> sayanmajumder@iitkgp.ac.in</p>
+        <p><strong>Phone:</strong> +91-7003100274</p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/sayanmech" target="_blank">github.com/sayanmech</a></p>
+    </div>
+
 </section>
 
 <footer>
-    © 2026 Sayan | Hosted on GitHub Pages
+    © 2026 Sayan Majumder | Hosted on GitHub Pages
 </footer>
 
 </body>
 </html>
-
