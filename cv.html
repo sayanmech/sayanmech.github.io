@@ -3,41 +3,41 @@
 <head>
 <meta charset="UTF-8">
 <title>CV | Dr. Sayan Majumder</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
+<style>
 body{
 margin:0;
 font-family:'Inter', sans-serif;
 background:#f4f6f9;
 color:#222;
 line-height:1.75;
-font-size:16px;
 }
 
-h1,h2,h3{
+h1,h2{
 font-family:'Playfair Display', serif;
-letter-spacing:0.2px;
 }
 
-h1{font-size:38px;}
-h2{font-size:26px;}
-h3{font-size:20px;}
-
-p{margin:12px 0;}
+nav{
+text-align:center;
+padding:20px;
+background:white;
+border-bottom:1px solid #ddd;
+}
 
 nav a{
-font-family:'Inter', sans-serif;
+margin:0 15px;
+color:#003366;
+text-decoration:none;
 font-weight:500;
 }
 
-h1{
-border-bottom:2px solid #ddd;
-padding-bottom:10px;
-}
-
-.cv-box{
-margin-top:25px;
+.container{
+max-width:950px;
+margin:auto;
+padding:40px 20px;
 }
 
 iframe{
@@ -45,10 +45,11 @@ width:100%;
 height:900px;
 border:1px solid #ddd;
 border-radius:6px;
+background:white;
 }
 
 .download{
-margin-top:15px;
+margin:15px 0 25px;
 }
 </style>
 </head>
@@ -63,31 +64,25 @@ margin-top:15px;
 <a href="beyond.html">Beyond Academics</a>
 </nav>
 
+<div class="container">
+
 <h1>Curriculum Vitae</h1>
 
 <p>
-My academic profile focuses on thermal sciences, electronic cooling,
+My research focuses on thermal sciences, electronic cooling,
 battery thermal management, and physics-based battery modelling.
 My doctoral work at IIT Madras combined experimental and numerical
-approaches to develop hybrid cooling solutions for electronics and
-Li-ion battery systems under constant and transient heat loads.
-</p>
-
-<p>
-The CV below summarises my academic background, research experience,
-teaching contributions, publications, mentorship, technical skills,
-and leadership activities.
+approaches for hybrid cooling systems for electronics and Li-ion batteries.
 </p>
 
 <div class="download">
 <a href="Sayan_CV.pdf" target="_blank"><strong>Download CV (PDF)</strong></a>
 </div>
 
-<div class="cv-box">
+<!-- Embedded PDF -->
 <iframe src="Sayan_CV.pdf"></iframe>
+
 </div>
 
 </body>
 </html>
-
-
