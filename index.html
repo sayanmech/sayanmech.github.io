@@ -2,33 +2,35 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Dr. Sayan Majumder | Portfolio</title>
+<title>Dr. Sayan Majumder</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
+<style>
 body{
 margin:0;
 font-family:'Inter', sans-serif;
 background:#f4f6f9;
 color:#222;
 line-height:1.75;
-font-size:16px;
 }
 
-h1,h2,h3{
+h1,h2{
 font-family:'Playfair Display', serif;
-letter-spacing:0.2px;
 }
 
-h1{font-size:38px;}
-h2{font-size:26px;}
-h3{font-size:20px;}
-
-p{margin:12px 0;}
+nav{
+text-align:center;
+padding:20px;
+background:white;
+border-bottom:1px solid #ddd;
+}
 
 nav a{
-font-family:'Inter', sans-serif;
+margin:0 15px;
+color:#003366;
+text-decoration:none;
 font-weight:500;
 }
 
@@ -48,28 +50,34 @@ border:3px solid #ddd;
 margin-bottom:20px;
 }
 
-section{
+.container{
 max-width:950px;
 margin:auto;
 padding:40px 20px;
 }
 
-h2{
-border-bottom:2px solid #e0e0e0;
-padding-bottom:10px;
+.section{
+margin-top:35px;
 }
 
-.contact-info p{margin:8px 0;}
+.section h2{
+border-bottom:2px solid #e0e0e0;
+padding-bottom:6px;
+}
+
+.contact p{
+margin:8px 0;
+}
 
 footer{
 text-align:center;
 padding:20px;
 background:white;
 border-top:1px solid #ddd;
-color:#666;
+margin-top:40px;
 }
 
-/* WhatsApp button */
+/* WhatsApp */
 .wa-float{
 position:fixed;
 bottom:20px;
@@ -93,55 +101,45 @@ height:55px;
 
 <header>
 
-<img src="profile.jpg" alt="Dr. Sayan Majumder Photo" class="profile-img">
+<img src="profile.jpg" alt="Dr. Sayan Majumder" class="profile-img">
 
 <h1>Dr. Sayan Majumder</h1>
 
 <p>
-Institute Post Doctoral Fellow <br>
-BEST Lab <br>
-School of Energy Science and Engineering <br>
+Institute Post Doctoral Fellow<br>
+BEST Lab<br>
+School of Energy Science and Engineering<br>
 Indian Institute of Technology Kharagpur
 </p>
 
 </header>
 
-<section>
+<div class="container">
+
+<div class="section">
 <h2>About Me</h2>
 
 <p>
-I am currently serving as an Institute Post Doctoral Fellow at the BEST Lab,
-School of Energy Science and Engineering, IIT Kharagpur.
-My research focuses on electrochemical modelling, battery thermal management,
-and multiphysics simulation for next-generation energy systems.
+I am an Institute Post Doctoral Fellow at the School of Energy Science and Engineering,
+IIT Kharagpur. My research focuses on physics-based battery modelling,
+electrochemical systems, electronic cooling, and battery thermal management.
+My work integrates experimental and numerical approaches to develop advanced
+thermal solutions for next-generation energy systems.
 </p>
+</div>
 
-</section>
+<div class="section">
+<h2>Academic Experience (Summary)</h2>
 
-<section>
-<h2>Academic Experiences</h2>
+<p>
+<strong>Institute Post Doctoral Fellow</strong>, IIT Kharagpur (2026–Present)<br>
+<strong>Institute Post Doctoral Fellow</strong>, IIT Guwahati (2025–2026)<br>
+<strong>Direct PhD</strong>, IIT Madras (2019–2025)<br>
+<strong>B.Tech Mechanical Engineering</strong>, NIT Agartala (2015–2019)
+</p>
+</div>
 
-<p><strong>Institute Post Doctoral Fellow</strong><br>
-BEST Lab, School of Energy Science and Engineering<br>
-Indian Institute of Technology Kharagpur<br>
-January 2026 – Ongoing</p>
-
-<p><strong>Institute Post Doctoral Fellow</strong><br>
-Department of Mechanical Engineering<br>
-Indian Institute of Technology Guwahati<br>
-October 2025 – January 2026</p>
-
-<p><strong>Direct PhD — Heat Transfer and Thermal Power Lab</strong><br>
-Indian Institute of Technology Madras<br>
-July 2019 – July 2025</p>
-
-<p><strong>B.Tech — Mechanical Engineering</strong><br>
-National Institute of Technology Agartala<br>
-July 2015 – June 2019</p>
-
-</section>
-
-<section>
+<div class="section">
 <h2>Skills</h2>
 
 <p>
@@ -149,13 +147,11 @@ Python • MATLAB • Electrochemical Modeling • Simulation • Mechanical Des
 Data Analysis • Thermal Management • Battery Cooling • ANSYS Fluent •
 LaTeX • COMSOL Multiphysics
 </p>
+</div>
 
-</section>
-
-<section>
+<div class="section contact">
 <h2>Contact</h2>
 
-<div class="contact-info">
 <p>Email: <a href="mailto:sayaniitmadras@gmail.com">sayaniitmadras@gmail.com</a></p>
 <p>Work Email: <a href="mailto:sayanmajumder@iitkgp.ac.in">sayanmajumder@iitkgp.ac.in</a></p>
 <p>Phone: +91-7003100274</p>
@@ -167,18 +163,15 @@ LaTeX • COMSOL Multiphysics
 </p>
 </div>
 
-</section>
+</div>
 
 <footer>
 © 2026 Dr. Sayan Majumder
 </footer>
 
-<!-- WhatsApp Floating Button -->
 <a href="https://wa.me/917003100274" target="_blank" class="wa-float">
 <img src="whatsapp.svg" alt="WhatsApp">
 </a>
 
 </body>
 </html>
-
-
